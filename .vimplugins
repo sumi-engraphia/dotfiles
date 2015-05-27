@@ -1,0 +1,18 @@
+" vim: set filetype=vim :
+
+" \s + 飛びたい先の文字 + その文字に振られたアルファベット
+NeoBundle 'Lokaltog/vim-easymotion'
+let g:EasyMotion_do_mapping = 0
+let g:EasyMotion_smartcase = 1
+nmap <Leader>s <Plug>(easymotion-s)
+"nmap <Leader>z <Plug>(easymotion-s)
+map <Leader>j <Plug>(easymotion-j)
+map <Leader>k <Plug>(easymotion-k)
+
+" インサートモードで Ctrl-y + ,
+NeoBundle 'mattn/emmet-vim'
+
+NeoBundle 'tpope/vim-surround'
+
+NeoBundle 'tpope/vim-repeat'
+
